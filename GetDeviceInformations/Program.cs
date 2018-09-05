@@ -74,6 +74,7 @@ namespace GetDeviceInformations
                     return ip.ToString();
                 }
             }
+
             throw new Exception("No network adapters with an IPv4 address in the system!");
         }
         public static string localIPAddress()
